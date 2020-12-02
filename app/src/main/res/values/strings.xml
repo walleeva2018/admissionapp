@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HSCQuestionBook</string>
+    <string name="underline"><u>Prospectus</u></string>
+    <string name="buet"><u>BUET</u></string>
+    <string name="kuet"><u>KUET</u></string>
+    <string name="cuet"><u>CUET</u></string>
+    <string name="ruet"><u>RUET</u></string>
+    <string name="sust"><u>SUST</u></string>
+    <string name="medical"><u>MEDICAL</u></string>
+    <string name="agriculture">Agriculture</string>
+    <string name="science">Science and Tech</string>
+    <string name="dhaka"><u>DHAKA UNIVERSITY</u></string>
+    <string name="rajshahi"><u>Rajshahi University</u></string>
+    <string name="jagannath"><u>Jahangirnagar University</u></string>
+    <string name="comilla"><u>Chittagong University</u></string>
+</resources>

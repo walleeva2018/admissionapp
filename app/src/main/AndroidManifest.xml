@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunitrafi.hscquestionbook">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallogo"
+        android:label="Admission Question Bank with Solutions"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HSCQuestionBook">
+        <activity android:name="com.sunitrafi.hscquestionbook.privacy_policy"></activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3646774575054065~1543498456"/>
+        <activity android:name="com.sunitrafi.hscquestionbook.no_Internet" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_d" />
+        <activity android:name="com.sunitrafi.hscquestionbook.butex_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.sust_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.sust_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.sust_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cuet_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cuet_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cuet_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cuet_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ruet_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ruet_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ruet_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ruet_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.kuet_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.buet_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.kuet_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.kuet_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.kuet_2014" />
+        <activity android:name="com.sunitrafi.hscquestionbook.buet_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.buet_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.buet_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.nstu" />
+        <activity android:name="com.sunitrafi.hscquestionbook.mbstu" />
+        <activity android:name="com.sunitrafi.hscquestionbook.agri_general_knowledge" />
+        <activity android:name="com.sunitrafi.hscquestionbook.agri_english" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Jkkkniu" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cou" />
+        <activity android:name="com.sunitrafi.hscquestionbook.bu" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ru_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ru_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ru_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu_other_unit" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu_d" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu_b" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu_all_unit" />
+        <activity android:name="com.sunitrafi.hscquestionbook.jnu_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_h" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_f" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_e" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_d_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_d_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_c" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_b" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_a_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_a_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_website" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_f" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_d_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_d_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_d_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_d_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_c_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_c_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_c_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_c_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_b_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_b_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_b_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_b_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_a_2019" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_a_2018" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_a_2017" />
+        <activity android:name="com.sunitrafi.hscquestionbook.du_a_2016" />
+        <activity android:name="com.sunitrafi.hscquestionbook.kupdf" />
+        <activity android:name="com.sunitrafi.hscquestionbook.jnupdf" />
+        <activity android:name="com.sunitrafi.hscquestionbook.MainActivity" />
+        <activity android:name="com.sunitrafi.hscquestionbook.medicalprospectus" />
+        <activity android:name="com.sunitrafi.hscquestionbook.medicalwebsite" />
+        <activity android:name="com.sunitrafi.hscquestionbook.med_chapter" />
+        <activity android:name="com.sunitrafi.hscquestionbook.med_2010_19" />
+        <activity android:name="com.sunitrafi.hscquestionbook.university_others" />
+        <activity android:name="com.sunitrafi.hscquestionbook.cu" />
+        <activity android:name="com.sunitrafi.hscquestionbook.ju_a" />
+        <activity android:name="com.sunitrafi.hscquestionbook.dhaka_d" />
+        <activity android:name="com.sunitrafi.hscquestionbook.dhaka_c" />
+        <activity android:name="com.sunitrafi.hscquestionbook.dhaka_b" />
+        <activity android:name="com.sunitrafi.hscquestionbook.dhaka_a" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Science" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Agriculture" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Butex" />
+        <activity android:name="com.sunitrafi.hscquestionbook.SUST" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Ruet" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Cuet" />
+        <activity android:name="com.sunitrafi.hscquestionbook.KUET" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Buet" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Buet18" />
+        <activity android:name="com.sunitrafi.hscquestionbook.JU" />
+        <activity android:name="com.sunitrafi.hscquestionbook.RU" />
+        <activity android:name="com.sunitrafi.hscquestionbook.DU" />
+        <activity android:name="com.sunitrafi.hscquestionbook.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sunitrafi.hscquestionbook.Others" />
+        <activity android:name="com.sunitrafi.hscquestionbook.University" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Medical" />
+        <activity android:name="com.sunitrafi.hscquestionbook.Engineering" />
+    </application>
+
+</manifest>

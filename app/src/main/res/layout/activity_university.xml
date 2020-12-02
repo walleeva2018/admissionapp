@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".University">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="151dp"
+        android:layout_height="71dp"
+        android:text="Universities"
+        android:textColor="#03A9F4"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/dhaka"
+        android:layout_width="196dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_back"
+        android:text="DU"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324" />
+
+            <Button
+                android:id="@+id/ju"
+                android:layout_width="196dp"
+                android:layout_height="44dp"
+                android:background="@drawable/button_back"
+                android:text="JU"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.455"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dhaka"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <Button
+                android:id="@+id/jnu"
+                android:layout_width="196dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="316dp"
+                android:background="@drawable/button_back"
+                android:text="JNU"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.455"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ju"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+        android:id="@+id/cu"
+        android:layout_width="196dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_back"
+        android:text="CU"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jnu"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/ru"
+        android:layout_width="196dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_back"
+        android:text="RU"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cu"
+        app:layout_constraintVertical_bias="0.12" />
+
+            <Button
+                android:id="@+id/ku"
+                android:layout_width="196dp"
+                android:layout_height="44dp"
+                android:background="@drawable/button_back"
+                android:text="KU"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.455"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ru"
+                app:layout_constraintVertical_bias="0.143" />
+
+            <Button
+                android:id="@+id/uni_other"
+                android:layout_width="196dp"
+                android:layout_height="44dp"
+                android:background="@drawable/button_back"
+                android:text="Others"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.455"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ku"
+                app:layout_constraintVertical_bias="0.318" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
